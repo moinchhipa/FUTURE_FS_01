@@ -37,6 +37,7 @@
     border-radius: 2rem;
     padding: 1.3rem;
     width: 18rem;
+    height: 13rem;
 }
 
 .edu {
@@ -47,8 +48,9 @@
     border: 2px solid rgb(175, 173, 173);
     border-radius: 2rem;
     padding: 1.5rem;
-    width: 17rem;
+    width: 18rem;
     margin-left: 2rem;
+    height: 13rem;
 }
 
 .exp {

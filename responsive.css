@@ -40,7 +40,7 @@
 
     section {
         text-align: center;
-        margin-top: 5rem;
+        margin-top: 3rem;
         margin-bottom: 13.5rem;
     }
 
@@ -64,6 +64,107 @@
     }
 
     .role p {
-    font-size: 1.25rem;
+        font-size: 1.25rem;
+    }
+
+    .about {
+        flex-direction: column;
+        margin-top: 0.5rem;
+    }
+
+    .bw-img {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .bw-img img {
+        width: 198px;
+        height: 198px;
+    }
+
+    .know {
+        font-weight: 400;
+    }
+
+    .about-box {
+        margin-top: 0;
+        gap: 1rem;
+    }
+
+    .about-me {
+        font-size: 2rem;
+    }
+
+    .experience {
+        width: 9.5rem;
+        text-align: center;
+        align-items: unset;
+        height: 206px;
+    }
+
+    .edu {
+        width: 9rem;
+        text-align: center;
+        margin: 0;
+        height: 200px;
+    }
+
+    .about-content {
+        margin: 0;
+        margin-top: 2rem;
+    }
+
+    .summary p {
+        font-size: 0.9rem;
+        word-spacing: 4px;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .skills-grid {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skills-container {
+        width: 20rem;
+        margin: 1rem 0;
+    }
+
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .mar-right {
+        margin-right: 0;
+    }
+
+    .contact-box {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        gap: 0rem;
+    }
+
+    .nav-links-footer {
+        align-items: center;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    .nav-links-footer ul {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .nav-links-footer li {
+        margin: 0;
     }
 }
