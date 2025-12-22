@@ -30,7 +30,7 @@
 @media (max-width: 1050px) {
     .container {
         width: 90%;
-        margin: 0 auto;
+        margin: auto;
     }
 
     .name {
@@ -97,14 +97,14 @@
     }
 
     .experience {
-        width: 9.5rem;
+        width: 35vw;
         text-align: center;
         align-items: unset;
         height: 206px;
     }
 
     .edu {
-        width: 9rem;
+        width: 35vw;
         text-align: center;
         margin: 0;
         height: 200px;
@@ -131,7 +131,7 @@
     }
 
     .skills-container {
-        width: 20rem;
+        width: 70vw;
         margin: 1rem 0;
     }
 
