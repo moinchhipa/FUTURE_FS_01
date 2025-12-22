@@ -81,6 +81,7 @@
     .bw-img img {
         width: 198px;
         height: 198px;
+        display: none;
     }
 
     .know {
