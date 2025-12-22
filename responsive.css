@@ -1,0 +1,69 @@
+@media (max-width: 1050px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 17vh;
+        right: 0;
+        width: 100%;
+        background: #fff;
+        display: none;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem 0;
+    }
+
+    .nav-links li {
+        margin: 1rem 0;
+    }
+
+    .nav-links.active {
+        display: block;
+    }
+}
+
+@media (max-width: 1050px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .name {
+        font-size: 1.5rem;
+        color: black;
+    }
+
+    section {
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 13.5rem;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .image img {
+        height: 197px;
+        width: 197px;
+        margin: 0 0;
+    }
+
+    .info-name p {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .intro {
+        margin-top: 2rem;
+    }
+
+    .role p {
+    font-size: 1.25rem;
+    }
+}

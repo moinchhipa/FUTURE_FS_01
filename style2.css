@@ -1,0 +1,285 @@
+/* About Section */
+
+.about {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4rem;
+}
+
+.about-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.bw-img img {
+    width: 400px;
+    height: 450px;
+    border-radius: 2rem;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(175, 173, 173);
+    border-radius: 2rem;
+    padding: 1.3rem;
+    width: 18rem;
+}
+
+.edu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(175, 173, 173);
+    border-radius: 2rem;
+    padding: 1.5rem;
+    width: 17rem;
+    margin-left: 2rem;
+}
+
+.exp {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 0.4rem;
+}
+
+.ex-text {
+    font-size: 1rem;
+    color: #4B5563;
+}
+
+.ex-icon img {
+    height: 2rem;
+}
+
+.summary {
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #4B5563;
+    line-height: 1.5rem;
+}
+
+/* Skills Section */
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.mt-text {
+    margin-top: 10rem;
+}
+
+.skills-container {
+  width: 500px;
+  background: #fff;
+  border: 2px solid #9d9c9c;
+  border-radius: 24px;
+  padding: 30px 40px;
+}
+
+.skills-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #444648;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 50px;
+}
+
+.skill {
+  width: calc(50% - 25px);
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.skill img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.skill h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.skill p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 3px;
+}
+
+.sk-cont-1 {
+    margin-right: 2rem;
+}
+
+/* Projects Section */
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.pro-card {
+    border: 2px solid rgb(175, 173, 173);
+    border-radius: 2rem;
+    padding: 1.5rem;
+    width: 20rem;
+}
+
+.mar-right {
+    margin-right: 2rem;
+}
+
+.card-img img {
+    width: 100%;
+    height: 320px;
+    border-radius: 1rem;
+}
+
+.card-text {
+    margin-top: 1rem;
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card-btn button {
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    border: 1px solid #2d2f31;
+    border-radius: 4rem;
+    background: transparent;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.card-btn button:hover {
+    background-color: #353535;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Contact Section */
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-box {
+    border: 2px solid rgb(175, 173, 173);
+    border-radius: 2rem;
+    padding: 1.5rem;
+    width: 25rem;
+    display: flex;
+    gap: 3rem;
+    font-size: 1.2rem;
+}
+
+.contact-box a img {
+    height: 36px;
+    width: 36px;
+    margin-right: 0.6rem;
+}
+
+.email a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: black;
+}
+
+.linkin a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 14rem;
+}
+
+.nav-links-footer:hover {
+    cursor: pointer;
+}
+
+.nav-links-footer ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links-footer li {
+    margin-left: 1.7rem;
+    font-size: 1.5rem;
+}
+
+.nav-links-footer li:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+    transition: all 0.3s ease;
+}
+
+/* Footer Section */
+
+.copy {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #4B5563;
+    font-size: 0.9rem;
+}
+
+.f-mt {
+    margin-top: 14.5rem;
+}
