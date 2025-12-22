@@ -4,6 +4,12 @@
     font-family: "Poppins", sans-serif;
 }
 
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
 .container {
   width: 75%;
   margin: 0 auto;   /* centers content horizontally */
